@@ -1,0 +1,56 @@
+body{
+    background: lightgray;
+}
+header img{
+    width: 100%;
+    min-height: 200px;
+    object-fit: none;
+    height: 400px;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto, 1fr);
+    gap: 20px;
+}
+.card{
+
+    text-align: center;
+    padding: 25px;
+    background: white;
+    border: 1px solid black;
+}
+button{
+    border: none;
+    background: black;
+    color: white;
+    height: 40px;
+    padding: 0 35px;
+}
+button:hover{
+    background: white;
+    color: black;
+    /* border: 1px solid black; */
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+#menu1{
+    justify-content: flex-end;
+}
+#menu2{
+    justify-content: center;
+}
+#menu3{
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 800px) {
+    #cards{
+        grid-template-columns: 100%;
+    }
+    #menu1, #menu2, #menu3{
+        justify-content: center;
+    }
+}

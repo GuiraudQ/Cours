@@ -1,0 +1,21 @@
+th, td{
+    border: 1px black solid;
+}
+th{
+    background: lightsteelblue;
+    font-weight: bolder;
+}
+table{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+caption{
+    font-weight: bolder;
+}
+td[rowspan]{
+    background: cadetblue ;
+    font-weight: bolder;
+}
+td:last-child{
+    background-color: darkseagreen;
+}

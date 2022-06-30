@@ -1,0 +1,16 @@
+Unified modeling language
+language permettant de mettre en graphique des idees de conception.
+Star UML (open source, facile)
+4 diqgrqmme princ.
+    use case
+    activ diagramme
+    sequence diagrame
+    class diagram
+
+use case : sers a designer toute les qction possible que notre systeme pourras faire et les mettre en relation avec les perssone qui pourront s'en servir
+diagramme d'activite : pour chaque action possible de faire avec notre systeme le diagramme d'activite designe la procedure que notre action va suivre pour arriver a son but
+diagramme de sequence : Les diagrammes de séquences sont la représentation graphique des interactions entre les acteurs et le système selon un ordre chronologique dans la formulation Unified Modeling Language.
+diagramme de classe : Le diagramme de classes est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces des systèmes ainsi que leurs relations. Ce diagramme fait partie de la partie statique d'UML, ne s'intéressant pas aux aspects temporels et dynamiques.
+
+send signal sers a envoyer un signal.
+flux principal.

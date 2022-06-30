@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg7021"
+   inkscape:export-filename="calme.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Calme.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7023"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52724989"
+     inkscape:cx="247.51072"
+     inkscape:cy="618.30265"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7018" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#56c3ff;stroke-width:1;fill-opacity:1"
+       id="rect8387"
+       width="242.37794"
+       height="327.68698"
+       x="-15.054531"
+       y="-19.57089" />
+    <path
+       style="fill:#5646ff;fill-opacity:1;stroke-width:1"
+       d="m 369.33782,87.316282 c 0,0 -132.47986,-56.705401 -219.29433,-21.578162 C 63.229031,100.86536 29.607245,43.156322 9.0327188,32.116334 -11.541807,21.076344 -59.716307,5.5199949 -77.781744,69.752662 -95.847182,133.98533 -113.91262,365.82511 -113.91262,365.82511 l 484.7559,-20.07272 z"
+       id="path18798" />
+    <path
+       style="fill:#5600ff;fill-opacity:1;stroke-width:1"
+       d="m -56.705401,220.79979 c 0,0 29.105428,-74.77084 152.050766,-37.13451 C 218.2907,221.30161 267.46885,146.02895 267.46885,146.02895 l 17.5636,187.67982 c 0,0 -352.276023,17.56362 -352.77784,11.04 -0.501819,-6.52364 11.039989,-123.94898 11.039989,-123.94898 z"
+       id="path18526" />
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+}
+
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+#d1{
+    align-items: center;
+    justify-content: center;
+}
+
+
+#d2{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#d3{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Séparer les div entres elles */
+#d4{
+    justify-content: space-around;
+}
+/* prendre les div les mettre en flex, les retourner et espacer les point entre eux */
+#d4 div{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+/* Séparer les div entres elles */
+#d5{
+    justify-content: space-evenly;
+}
+/* prendre les div les mettre en flex, les retourner et espacer les point entre eux */
+#d5 div{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/* decaler point solo pour le centrer */
+#d5 div:nth-child(2){
+    align-self: center;
+}
+/* Séparer les div entres elles */
+#d6{
+    justify-content: space-around;
+}
+/* prendre les div les mettre en flex, les retourner et espacer les point entre eux */
+#d6 div{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}

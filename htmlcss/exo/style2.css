@@ -1,0 +1,125 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    color: black;
+    cursor: pointer;
+}
+.box p{
+    font-size: 25px;
+}
+
+#box1 {
+    background: red;
+}
+#box2 {
+    background: green;
+}
+#box3 {
+    background: yellow;
+}
+#box4 {
+    background: blue;
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    background: lightgreen;
+}
+@keyframes iDunno {
+    20% {
+        transform: translate(200px, -200px);
+    }
+    40% {
+        transform: translate(200px, 200px);
+    }
+    60% {
+        transform: translate(-200px, 200px);
+    }
+    80% {
+        transform: translate(-200px, -200px);
+    }
+    to {
+        transform: translate(0px, 0px);
+        background: lightseagreen;
+    }
+    
+} */
+/* .error {
+    color: red;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.valid {
+    color: green;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lavender;
+}
+.container {
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+.container div {
+    padding: 5px 0;
+}
+.container input {
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.container input:hover {
+    border: 2px solid black;
+}
+.container .error {
+    border: 1px solid red ;
+    background: red;
+}
+.container .error:hover {
+    border: 2px solid red ;
+}
+.container .valid {
+    border:  1px solid green ;
+    background: green;
+}
+.container .valid:hover {
+    border:  2px solid green ;
+}

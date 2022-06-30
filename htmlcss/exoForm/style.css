@@ -1,0 +1,39 @@
+body{
+    background: springgreen;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: lavender;
+    border-radius: 25px;
+    padding: 25px;
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 25px;
+}
+form #perso div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    min-width: 300px;
+}
+#comDiv {
+    flex-direction: column;
+    max-width: none;
+}
+#pref{
+    align-items: flex-start;
+}
+#reveil{
+    align-items: flex-start;
+}
+#rendu{
+    flex-direction: row;
+}

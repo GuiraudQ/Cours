@@ -1,0 +1,31 @@
+Une sorte de Blog/reseau sociaux.
+Une plateforme comunautaire artistique pour mettre en lien des artiste.
+
+il pourrais y'avoir des compte pour createur de contenue, et des compte pour visioner le contenue.
+
+Les createur pourrais creer des "POST" (Histoire, dessin ...)
+Les consultant et createur pourrais liker commenter ces POST et les rajouter a leur liste de suivie de contenue
+Les createur pourrais aussi branche deriver d'un post pour 
+	- SOIS continuer ce post(pour faire une fin 	alternative a l'histoire
+	- SOIS rajouter du contenue different(ajouter des image 	sur le texte).
+
+
+
+ 
+
+
+
+Les utilisateur aurais un compte auxquel on pourrais s'abonner pour suivre le flux de la "chaine".
+
+
+Bouton like qui fais apparaitre le bouton commentaire
+bouton dislike qui force a commenter pour donner un avis constructif si on dislike
+
+
+
+
+
+1 introduction
+1.1 description de l'entreprise du client (je suis mon propre client)
+
+

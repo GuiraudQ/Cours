@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Page contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/800/200" alt="Baniere charger aleatoirement">
+        <h1>Bienvenu sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#article2">Article2</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="action_page.php" method="post">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="fName">Nom :<span class="red">*</span></label>
+                    <input type="text" placeholder="Prenom" name="fName" id="fName" minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <label for="mail">Mail :<span class="red">*</span></label>
+                    <input type="mail" placeholder="Mail" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="coms">Commentaire :</label></br>
+                    <textarea name="coms" id="coms" cols="70" rows="10" placeholder="Laisse un com ;)"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="feedBack" name="langage">
+                    <label for="feedBack">Envoyer une copie par E-mail !</label>
+                </div>
+                <div>
+                    <button type="submit" value="Envoyer">Submit</button>
+                    <button type="submit" value="Reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.google.com">Google</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

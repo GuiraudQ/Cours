@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+#tchatContainer{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 800px 50px;
+}
+.cadreBleu{
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#message{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: scroll;
+}
+
+#message p:nth-child(2n){
+    background: grey;
+    /* grid-column: 2; */
+}
+/* #message p:nth-child(1){
+grid-row: 1;
+}
+#message p:nth-child(2){
+grid-row: 2;
+}
+#message p:nth-child(3){
+grid-row: 3;
+}
+#message p:nth-child(4){
+grid-row: 4;
+}
+#message p:nth-child(5){
+grid-row: 5;
+}
+#message p:nth-child(6){
+grid-row: 6;
+} */
+
+#userList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+ul li{
+    list-style: none;
+}
+#text{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+#text input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+}
+#text p{
+    padding: 5px;
+}
+#text button{
+    height: 40px;
+}

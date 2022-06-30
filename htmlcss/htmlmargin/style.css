@@ -1,0 +1,22 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    background: violet;
+}
+p{
+    background: grey;
+    border: 1px solid green;
+}
+p:nth-child(1){
+    height: 100px;
+}
+p:nth-child(2){
+    width: 50%;
+    margin: 20px 5px;
+}
+p:nth-child(3){
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    overflow-y: scroll;
+}

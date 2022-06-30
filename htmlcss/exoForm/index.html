@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Formulaire</title>
+
+    <link rel="stylesheet" href="minireset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="monForm">
+        <fieldset id="perso">
+            <legend>Info personnelle</legend>
+            <div id="fNameDiv">
+                <label for="idFName">Prenom :</label>
+                <input type="text" id="idFName" name="fName" minlength="2" maxlength="20" placeholder="ex : Joly">
+            </div>
+            <div id="lNameDiv">
+                <label for="idLName">Nom :</label>
+                <input type="text" id="idLName" name="lName" minlength="2" maxlength="20" placeholder="ex : Jonah">
+            </div>
+            <div id="mailDiv">
+                <label for="idMail">Mail :</label>
+                <input type="mail" id="idMail" name="mail" placeholder="ex : jojo@gmail.com">
+            </div>
+            <div id="numDiv">
+                <label for="idNum">Numero :</label>
+                <input type="tel" id="idNum" name="num" placeholder="ex : 06 65 51 99 46">
+            </div>
+            <div id="pwdDiv">
+                <label for="idPwd">Mot de password :</label>
+                <input type="password" id="idPwd" name="pwd" placeholder="ex : azerty" minlength="8" maxlength="30">
+            </div>
+            <div id="pwdDiv">
+                <label for="idAge">Age :</label>
+                <input type="number" id="idAge" name="age" placeholder="ex : 19">
+            </div>
+            <div id="comDiv">
+                <label for="idCom">Commentaire :</label>
+                <textarea name="com" id="idCom" cols="70" rows="10" placeholder="Laissez un commentaire si c'est gentils"></textarea>
+            </div>
+            <div id="dateComDiv">
+                <label for="idDateCom">Date de mon commentaire :</label>
+                <input type="date" id="idDateCom" name="dateCom">
+            </div>
+            <div id="picDiv">
+                <label for="idPic">Ma photo :</label>
+                <input type="file" id="idPic" name="dateCom" accept=".jpg .png .gif">
+            </div>
+        </fieldset>
+
+        <fieldset id="pref">
+            <legend>Preference :</legend>
+            <div>
+                <input type="checkbox" id="idHtml" name="langage">
+                <label for="idHtml">Le html</label>
+            </div>
+            <div>
+                <input type="checkbox" id="idCss" name="langage">
+                <label for="idCss">Le css</label>
+            </div>
+            <div>
+                <input type="checkbox" id="idJavaScript" name="langage">
+                <label for="idJavaScript">Le javaScript</label>
+            </div>
+            <div>
+                <input type="checkbox" id="idNone" name="langage">
+                <label for="idNone">Le javaScript</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="reveil">
+            <legend>Vous vous levez</legend>
+            <div>
+                <input type="radio" id="idMatin" name="hReveil">
+                <label for="idMatin">Le Matin</label>
+            </div>
+            <div>
+                <input type="radio" id="idMidi" name="hReveil">
+                <label for="idMini">Le midi</label>
+            </div>
+            <div>
+                <input type="radio" id="idSoir" name="hReveil">
+                <label for="idSoir">Le soir</label>
+            </div>
+            <div>
+                <input type="radio" id="idJamais" name="hReveil" checked>
+                <label for="idJamais">En retard</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="rendu">
+            <legend>Fin du formulaire</legend>
+            <label for="idListe">Vous en avez assez</label>
+            <select name="liste" id="idListe">
+                <optgroup label="Team pas encore">
+                    <option value="plus">J'en veux plus</option>
+                    <option value="fun">C'est super</option>
+                </optgroup>
+                <optgroup label="Team OUHLA">
+                    <option value="plus">J'en ai marre</option>
+                    <option value="fun">Pitié</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Envoyer">
+            <input type="submit" value="Reset">
+            <button type="submit" value="Envoyer">Submit</button>
+            <button type="submit" value="Reset">Reset</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>

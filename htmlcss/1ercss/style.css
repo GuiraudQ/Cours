@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+a{
+    color: yellowgreen;
+}
+#contenue{
+    background-color: lightgray;
+}
+div:not(#contenue){
+    text-align: right;
+}
+div:nth-child(3) p{
+    font-size: 2em;
+
+}
